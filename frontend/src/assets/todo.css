@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+body {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  color: #343a40;
+  min-height: 100vh;
+  
+}
+
+.todo-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.completed {
+  background-color: #e2f4dc !important;
+}
+
+.completed:nth-child(even) {
+  background-color: #fff3cd !important;
+}
+
+.auth-card {
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffffcc;
+  backdrop-filter: blur(10px);
+}
+
+.auth-heading {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.auth-link {
+  color: #007bff;
+  font-weight: 500;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
