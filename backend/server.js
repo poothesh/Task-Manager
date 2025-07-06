@@ -10,7 +10,10 @@ connectDB();
 
 // ✅ Allow frontend (local or deployed) to access API with credentials
 app.use(cors({
-  origin: "http://localhost:5173", // change to your frontend domain on deploy
+  origin: [
+    "http://localhost:5173", // local development
+    "https://task-manager-katomaran.vercel.app" // deployed frontend
+  ],
   credentials: true
 }));
 
